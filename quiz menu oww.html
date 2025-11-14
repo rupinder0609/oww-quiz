@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Avanzato – Menu Old Wild West Altavilla Vicentina</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .question { margin-bottom: 20px; }
+    .result { font-weight: bold; margin-top: 20px; }
+    label { display: block; margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <h1>Quiz Avanzato sul Menu di Old Wild West (Altavilla Vicentina)</h1>
+  <p>Inserisci il tuo nome e cognome, poi rispondi alle domande. Alla fine premi “Valuta” per ottenere il punteggio.</p>
+  
+  <label for="name">Nome e cognome:</label>
+  <input type="text" id="name" name="name" style="width:300px;"><br><br>
+  
+  <form id="quizForm">
+    <!-- Domanda 1 -->
+    <div class="question">
+      <p>1. Quale ingrediente è presente nel <strong>Smash Burger 20 Years</strong> di OWW?</p>
+      <label><input type="radio" name="q1" value="A"> Peperoni grigliati</label>
+      <label><input type="radio" name="q1" value="B"> Guanciale nostrano</label>
+      <label><input type="radio" name="q1" value="C"> Pollo sfilacciato</label>
+      <label><input type="radio" name="q1" value="D"> Jalapeños</label>
+    </div>
+
+    <!-- Domanda 2 -->
+    <div class="question">
+      <p>2. Nel wrap “Ranchero Wrap” (I Magnifici 4) quale formaggio tipico viene usato?</p>
+      <label><input type="radio" name="q2" value="A"> Parmigiano Reggiano DOP</label>
+      <label><input type="radio" name="q2" value="B"> Cheddar</label>
+      <label><input type="radio" name="q2" value="C"> Mozzarella</label>
+      <label><input type="radio" name="q2" value="D"> Castelmagno</label>
+    </div>
+
+    <!-- Domanda 3 -->
+    <div class="question">
+      <p>3. Qual è la differenza tra “Classic Burger Dakota” e “BBQ Burger Nuova Ricetta”?</p>
+      <label><input type="radio" name="q3" value="A"> Il Dakota ha bacon grigliato mentre il BBQ Burger no.</label>
+      <label><input type="radio" name="q3" value="B"> Il BBQ Burger ha una julienne di cipolla arrostita e salsa Barbecue.</label>
+      <label><input type="radio" name="q3" value="C"> Il Dakota è doppio hamburger, il BBQ è singolo.</label>
+      <label><input type="radio" name="q3" value="D"> Il BBQ Burger è servito senza pane.</label>
+    </div>
+
+    <!-- Domanda 4 -->
+    <div class="question">
+      <p>4. Quale piatto della categoria “Tex Mex” include riso nero (o mix di cereali legumi secondo il menu)?</p>
+      <label><input type="radio" name="q4" value="A"> Mexican Nachos</label>
+      <label><input type="radio" name="q4" value="B"> Chicken Burrito</label>
+      <label><input type="radio" name="q4" value="C"> Fajitas Especiales</label>
+      <label><input type="radio" name="q4" value="D"> Wrap Caesar</label>
+    </div>
+
+    <!-- Domanda 5 -->
+    <div class="question">
+      <p>5. La <strong>Arizona Caesar Salad</strong> contiene quale fra questi elementi?</p>
+      <label><input type="radio" name="q5" value="A"> Nachos</label>
+      <label><input type="radio" name="q5" value="B"> Cotoletta di pollo panata</label>
+      <label><input type="radio" name="q5" value="C"> Crostini e scaglie di Parmigiano</label>
+      <label><input type="radio" name="q5" value="D"> Chili con carne</label>
+    </div>
+
+    <!-- Domanda 6 -->
+    <div class="question">
+      <p>6. Quale taglio è offerto nella sezione “Carni White Mountain”?</p>
+      <label><input type="radio" name="q6" value="A"> Ribs di maiale</label>
+      <label><input type="radio" name="q6" value="B"> Tagliata di petto di pollo</label>
+      <label><input type="radio" name="q6" value="C"> Hamburger di Chianina</label>
+      <label><input type="radio" name="q6" value="D"> Salmone</label>
+    </div>
+
+    <!-- Domanda 7 -->
+    <div class="question">
+      <p>7. Nel “Western Grill – 2 persone” (Specialità del Saloon) quali carni sono incluse?</p>
+      <label><input type="radio" name="q7" value="A"> Manzo, pollo, ribs, salmone</label>
+      <label><input type="radio" name="q7" value="B"> Manzo, petto di pollo, salsiccia, wurstel</label>
+      <label><input type="radio" name="q7" value="C"> Solo manzo e pollo</label>
+      <label><input type="radio" name="q7" value="D"> Hamburger di Chianina e ribs</label>
+    </div>
+
+    <!-- Domanda 8 -->
+    <div class="question">
+      <p>8. Cosa caratterizza il <strong>Low & Slow Chicken</strong> rispetto ad altri piatti di pollo?</p>
+      <label><input type="radio" name="q8" value="A"> È fritto</label>
+      <label><input type="radio" name="q8" value="B"> È cotto a bassa temperatura e marinato con erbe</label>
+      <label><input type="radio" name="q8" value="C"> È sfilacciato in salsa BBQ</label>
+      <label><input type="radio" name="q8" value="D"> Ha peperoni piccanti</label>
+    </div>
+
+    <!-- Domanda 9 -->
+    <div class="question">
+      <p>9. Nel menu “Meat Free” quale panino è accompagnato da salsa Guacamole?</p>
+      <label><input type="radio" name="q9" value="A"> Vegan Crunchy Wrap</label>
+      <label><input type="radio" name="q9" value="B"> Veggie Wrap</label>
+      <label><input type="radio" name="q9" value="C"> Alabama Veggie</label>
+      <label><input type="radio" name="q9" value="D"> Oregon Meat Free</label>
+    </div>
+
+    <!-- Domanda 10 -->
+    <div class="question">
+      <p>10. Quale piatto Tex Mex è descritto come “strips di pollo extra croccante con lime e prezzemolo”?</p>
+      <label><input type="radio" name="q10" value="A"> Chicken Burrito</label>
+      <label><input type="radio" name="q10" value="B"> Louisiana Chicken</label>
+      <label><input type="radio" name="q10" value="C"> Fajitas Especiales</label>
+      <label><input type="radio" name="q10" value="D"> Wrap San Diego</label>
+    </div>
+
+    <!-- Domanda 11 -->
+    <div class="question">
+      <p>11. Nel menu “Gluten Free” quale opzione non include carne?</p>
+      <label><input type="radio" name="q11" value="A"> Bacon Cheddar Burger (Gluten Free)</label>
+      <label><input type="radio" name="q11" value="B"> Fries (Gluten Free)</label>
+      <label><input type="radio" name="q11" value="C"> Chicken Burger (Gluten Free)</label>
+      <label><input type="radio" name="q11" value="D"> Chicken Nuggets (Gluten Free)</label>
+    </div>
+
+    <!-- Domanda 12 -->
+    <div class="question">
+      <p>12. Quale piatto nel menu Dessert include topping alle arachidi e caramello salato?</p>
+      <label><input type="radio" name="q12" value="A"> Soufflé Due Lune</label>
+      <label><input type="radio" name="q12" value="B"> Pancake con Nutella®</label>
+      <label><input type="radio" name="q12" value="C"> Caramel Brownie</label>
+      <label><input type="radio" name="q12" value="D"> Cheesecake con Pistacchio</label>
+    </div>
+
+    <!-- Domanda 13 -->
+    <div class="question">
+      <p>13. Quale special burger usa carne di Chianina?</p>
+      <label><input type="radio" name="q13" value="A"> Chianina Burger Royale</label>
+      <label><input type="radio" name="q13" value="B"> Pulled Ribs Burger</label>
+      <label><input type="radio" name="q13" value="C"> Pulled BBQ Chicken</label>
+      <label><input type="radio" name="q13" value="D"> Cheyenne Chicken</label>
+    </div>
+
+    <!-- Domanda 14 -->
+    <div class="question">
+      <p>14. Nel wrap “Santa Cruz” (I Magnifici 4) cosa contiene insieme al pollo speziato?</p>
+      <label><input type="radio" name="q14" value="A"> Salsa alla Scamorza e salsa Cheddar</label>
+      <label><input type="radio" name="q14" value="B"> Jalapeños e nachos</label>
+      <label><input type="radio" name="q14" value="C"> Guanciale e pomodoro secco</label>
+      <label><input type="radio" name="q14" value="D"> Bacon croccante e lattuga</label>
+    </div>
+
+    <!-- Domanda 15 -->
+    <div class="question">
+      <p>15. Qual è il peso indicato per le “BBQ Ribs – Nuovo Formato” nello Specialità del Saloon?</p>
+      <label><input type="radio" name="q15" value="A"> 300 g</label>
+      <label><input type="radio" name="q15" value="B"> 400 g</label>
+      <label><input type="radio" name="q15" value="C"> 500 g</label>
+      <label><input type="radio" name="q15" value="D"> 600 g</label>
+    </div>
+
+    <button type="button" onclick="valutaQuiz()">Valuta</button>
+  </form>
+
+  <div class="result" id="result"></div>
+
+  <script>
+    function valutaQuiz() {
+      const name = document.getElementById('name').value.trim();
+      if (!name) {
+        alert('Per favore inserisci nome e cognome.');
+        return;
+      }
+      const risposteCorrette = {
+        q1: 'B',    // Guanciale nel Smash Burger 20 Years
+        q2: 'A',    // Parmigiano Reggiano nel Ranchero Wrap
+        q3: 'B',    // BBQ Burger ha cipolla arrostita + BBQ
+        q4: 'B',    // Chicken Burrito ha mix cereali / riso
+        q5: 'C',    // Arizona Caesar: crostini + parmigiano
+        q6: 'B',    // Tagliata di petto di pollo nella White Mountain
+        q7: 'B',    // Western Grill: manzo, pollo, salsiccia, wurstel
+        q8: 'B',    // Low & Slow Chicken cotto a bassa temperatura con erbe
+        q9: 'D',    // Oregon Meat Free ha guacamole
+        q10: 'B',   // Louisiana Chicken è strips di pollo con lime e prezzemolo
+        q11: 'B',   // Fries (Gluten Free) non hanno carne
+        q12: 'B',   // Pancake con Nutella ha caramello e arachidi
+        q13: 'A',   // Chianina Burger Royale
+        q14: 'A',   // Santa Cruz Wrap: salsa Scamorza + Cheddar
+        q15: 'C'    // BBQ Ribs 500 g
+      };
+      let punteggio = 0;
+      for (let i = 1; i <= 15; i++) {
+        const q = 'q' + i;
+        const scelta = document.querySelector(`input[name="${q}"]:checked`);
+        if (scelta && scelta.value === risposteCorrette[q]) {
+          punteggio++;
+        }
+      }
+      const percent = Math.round((punteggio / 15) * 100);
+      let messaggio;
+      if (percent === 100) {
+        messaggio = `Perfetto, ${name}! Punteggio: ${punteggio}/15 (${percent}%). Conosci il menu Old Wild West come un vero esperto.`;
+      } else if (percent >= 80) {
+        messaggio = `Ottimo, ${name}! Hai risposto correttamente a ${punteggio} domande su 15 (${percent}%).`;
+      } else if (percent >= 50) {
+        messaggio = `Buono, ${name}. Ci sei andato vicino: ${punteggio}/15 (${percent}%).`;
+      } else {
+        messaggio = `Non male, ${name}, ma puoi fare meglio: ${punteggio}/15 (${percent}%).`;
+      }
+      document.getElementById('result').innerText = messaggio;
+    }
+  </script>
+</body>
+</html>
